@@ -13,7 +13,7 @@ sim = Simulation(env)
 vel_planner = VelPlanner()
 
 use_myPolicy = True
-render_ON = False
+render_ON = True
 
 ob = env.reset()
 #assert env.observation_space.contains(ob), "%r (%s) invalid" % (ob, type(ob))
