@@ -760,6 +760,7 @@ class Car1D(gym.Env):
             x0, y0, ground_x, ground_z = self.laser_scanner.get_laser_scan(X)
             for i in range(len(ground_z)):
                 self.hLaserRays[i].set_data([x0, ground_x[i]], [y0, ground_z[i]])
+
             # update ground:
             # x0 = self.ground.x0
             # xf = self.ground.xf
@@ -769,11 +770,11 @@ class Car1D(gym.Env):
             # ground_z = np.zeros(len(ground_x))
             #
             # self.hGround.set_data(ground_x, ground_z)
-            acc = np.array([np.asscalar(acc)])
-            self.acc_vec = np.concatenate(( self.acc_vec[1:], acc/9.81 ))
 
-            vel = np.array([np.asscalar(X[dx_ind,0])])
-            self.vel_vec = np.concatenate(( self.vel_vec[1:], vel ))
+         #   self.acc_vec = np.concatenate(( self.acc_vec[1:], acc/9.81 ))
+
+         #   vel =  np.array([np.asscalar(X[dx_ind,0])])
+         #   self.vel_vec = np.concatenate(( self.vel_vec[1:], vel ))
 
             # update acc display:
             self.hAccVisLine.set_data(self.acc_tvec, self.acc_vec)
@@ -784,8 +785,8 @@ class Car1D(gym.Env):
             # update laser scan display:
             self.hTerrainVisLine.set_data(self.terrain_xvec, ground_z)
 
-            x = X[x_ind,0]
-            self.hAxes.set_xlim(x-body_length*2,x+body_length*8)
+           # x = X[x_ind,0]
+          #  self.hAxes.set_xlim(x-body_length*2,x+body_length*8)
 
             # time
             self.hTimeObj.set_text(self.hTimeObj_str % self.t)
