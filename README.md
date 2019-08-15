@@ -5,3 +5,7 @@ A gym compatible environment for training a 1D car for optimal speed over rough 
 gym,
 matplotlib 3.0.2,
 numpy 1.15.4
+
+## Set up
+
+sudo apt-get install python3-venv
