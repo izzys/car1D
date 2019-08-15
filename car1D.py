@@ -2,7 +2,6 @@ import math
 import numpy as np
 import gym
 from gym import spaces, logger
-import matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.lines as mlines
 import matplotlib.patches as mpatches
@@ -14,7 +13,6 @@ max_time = 30
 
 # display params
 skip_frames = 25
-
 
 # car params:
 body_width = 1.0
