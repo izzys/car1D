@@ -22,5 +22,6 @@ Install reruirements
 
 ```sh
   $ pip install matplotlib==3.0.2
-
+  $ pip install numpy==1.15.4
+  $ pip install ngym
 ``` 
