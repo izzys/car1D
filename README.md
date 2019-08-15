@@ -18,7 +18,7 @@ Set up a virtual environment
 ```  
 
 
-Install reruirements
+Install requirements
 
 ```sh
   (car1D)$ pip install matplotlib==3.0.2
