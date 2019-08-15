@@ -21,14 +21,14 @@ Set up a virtual environment
 Install reruirements
 
 ```sh
-  $ pip install matplotlib==3.0.2
-  $ pip install numpy==1.15.4
-  $ pip install gym
+  (car1D)$ pip install matplotlib==3.0.2
+  (car1D)$ pip install numpy==1.15.4
+  (car1D)$ pip install gym
 ``` 
 
 Run and enjoy!
 
 ```sh
-  $ python run.py
+  (car1D)$ python run.py
 ``` 
 
