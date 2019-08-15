@@ -25,3 +25,10 @@ Install reruirements
   $ pip install numpy==1.15.4
   $ pip install gym
 ``` 
+
+Run and enjoy!
+
+```sh
+  $ python run.py
+``` 
+
