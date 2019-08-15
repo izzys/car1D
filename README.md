@@ -8,4 +8,8 @@ A gym compatible environment for training a 1D car for optimal speed over rough 
 
 ### Set up
 
-  "sudo apt-get install python3-venv"
+  cd path/to/car1D
+  sudo apt-get install python3-venv
+  python3 -m venv .
+  source bin/activate
+  
