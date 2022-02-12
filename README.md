@@ -31,4 +31,4 @@ Run and enjoy!
 ```sh
   (car1D)$ python run.py
 ``` 
-![alt text](https://github.com/izzys/car1D/blob/master/car1D.png)
+![alt text](https://github.com/izzys/car1D/blob/main/example.png)
